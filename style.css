@@ -1,0 +1,76 @@
+.container{
+    margin-bottom: 30px;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+.btn-dark{
+background-color: black;
+}
+.carousel-inner p{
+    color: gray;
+}
+.highlight{
+    color: tomato;
+}
+.card{
+    border: none;
+    box-shadow:5px 4px 10px lightgray ;
+    border-radius: 10px;
+}
+.card-body{
+    text-align: center;
+}
+.cat {
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 5px lightgrey;
+    padding:30px;
+    margin-bottom: 30px;
+}
+
+.pale-order{
+    width: 100%;
+
+}
+.cat-btn{
+    margin: 0 auto 65px;
+    height: 7px;
+    width: 100px;
+    background-image: linear-gradient(to right, orange,tomato);
+    border: none;
+    border-radius: 10px ;
+    
+}
+.carousel-indicators .active {
+    background-color: rgb(255, 165, 48);
+    width: 40px;
+    height: 10px;
+    border-radius: 15px;
+    transition: width 0.5s ease 0s;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    opacity: 0.5;
+    flex: 0 1 auto;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: opacity 0.6s ease 0s;
+}
+.carousel-indicators li {
+    background-color: rgb(206, 206, 206);
+    width: 20px;
+    height: 10px;
+    border-radius: 15px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    transition: width 0.5s ease 0s;
+}
